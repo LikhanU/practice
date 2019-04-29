@@ -1,0 +1,180 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .toggle-hamburger {
+    display: block;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .main-title > p {
+    margin-bottom: 50px;
+  }
+
+  .support > span {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  #AboutUs {
+    padding: 50px 20px;
+  }
+
+  .heading {
+    margin-bottom: 40px;
+  }
+
+  .steps {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #OurServices {
+    padding: 50px 20px;
+  }
+
+  .files {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .file_card {
+    width: 35%;
+    padding: 10px;
+  }
+
+  .file_card > input[type="submit"] {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  #portfolio {
+    padding: 50px 20px;
+  }
+
+  .filters {
+    margin-bottom: 20px;
+  }
+
+  .filters > span > a {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cards {
+    column-count: 2;
+    margin-bottom: 50px;
+  }
+
+  #pricing {
+    padding: 50px 20px;
+  }
+
+  .price_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+  .item {
+    width: 45%;
+    margin-bottom: 20px;
+
+  }
+
+  .item:last-child {
+    margin-bottom: 0;
+    width: 50%;
+  }
+
+  .price {
+    padding: 15px 0;
+  }
+
+  .list-item {
+    padding: 0 15px;
+  }
+
+  .feedback {
+    margin-top: 30px;
+  }
+
+  #ourTeam {
+    padding: 50px 20px;
+  }
+
+  .slider {
+    height: 300px;
+  }
+
+  .member > span {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  #blog {
+    padding: 50px 20px;
+  }
+
+  .contents {
+    margin-bottom: 40px;
+  }
+
+  .contents > div {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+
+  #contacts {
+    padding: 50px 20px;
+  }
+
+
+
+  .findUs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .findUs > div {
+    margin-bottom: 40px;
+  }
+
+  .fullForm > form > p > input[type='text'] {
+    font-size: 20px;
+  }
+
+  .fullForm > form > p > textarea {
+    font-size: 20px;
+  }
+
+  .fullForm > form > input {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .reserve {
+    flex-direction: row;
+  }
+
+
+
+
+
+
+}
