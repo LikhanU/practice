@@ -8,14 +8,13 @@
 
 
 
-header {
+.header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
   position: sticky;
-  padding: 48px 90px;
+  padding: 10px 5%;
   top: 0;
   transition: top 0.6s;
   z-index: 90;
@@ -28,8 +27,8 @@ header {
 .logo > h1{
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px ;
-  line-height: 28px;
+  font-size: 20px ;
+  white-space: nowrap;
 }
 
 .navbar {
@@ -57,7 +56,9 @@ header {
 }
 
 .search {
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -93,20 +94,33 @@ header {
   letter-spacing: 0.05em;
 }
 
-.support > span {
-  border: 2px solid;
-  border-color: #fff;
-  padding: 10px 6px;
-  margin-right: 10px
+.btn{
+  font-family: 'Roboto Bold', sans-serif;
+  padding: 0px 8px;
+  font-weight: 700;
+  min-width: 64px;
+  text-transform: uppercase;
+  height: 48px;
+  margin-right: 8px;
+  cursor: pointer;
 }
 
-.support > span > a {
-  font-family: 'Roboto Bold', sans-serif;
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  color: #fff
+.primary-btn{
+  
+  color: black;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+.outline-btn{
+  border: 2px solid;
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+
+.buttons > .btn:first-child {
+  margin-right: 10px;
 }
 
 .wrap > span {
@@ -161,8 +175,8 @@ header {
 
 .files {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card > h2,
@@ -174,7 +188,7 @@ header {
 
 #OurServices {
     background-color: #e4fdf9;
-    padding: 180px 115px 125px 115px;
+    padding: 67px 115px 125px 115px;
 }
 
 .file_card {
@@ -182,7 +196,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 21%;
+  flex: 1 1 300px;
   background-color: #fff;
   padding: 60px 0 50px 0;
   margin: 15px;
@@ -228,7 +242,7 @@ header {
   height: 100%;
 }
 #portfolio {
-  padding: 130px 115px;
+  padding: 67px 115px;
 }
 
 .filters {
@@ -324,18 +338,18 @@ header {
 }
 
 #pricing {
-  padding: 130px 120px;
+  padding: 67px 120px;
   background-color: #f1f1f1;
 }
 
 .price_list {
-  width: 100%;
   display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .item {
-  width: 32%;
+  flex: 1 1 300px;
   background-color: #fff;
   display: inline-block;
   box-sizing: border-box;
@@ -403,7 +417,7 @@ header {
 }
 
 #ourTeam {
-  padding: 125px 100px;
+  padding: 67px 100px;
 }
 
 .team {
@@ -485,7 +499,7 @@ header {
 
 #blog {
   background-color: #e4fdf9;
-  padding: 130px 120px;
+  padding: 67px 120px;
 }
 
 .contents {
@@ -525,7 +539,7 @@ header {
   background-image: url('../img/bg-contact.png');
   background-size: cover;
   background-position: center;
-  padding: 130px 180px 100px 180px;
+  padding: 67px 180px 100px 180px;
   color: white;
 }
 
